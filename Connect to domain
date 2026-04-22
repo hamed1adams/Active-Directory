@@ -1,1 +1,24 @@
 I’m putting both machines on the same virtual network called ADNetwork so they can talk to each other
+
+
+I’m opening the Ethernet properties on the server to configure the IP settings. Below that I’m setting the DNS server to 127.0.0.1 so the server points to itself for 
+
+
+I ran ipconfig to confirm the server’s IP address is 10.0.2.15. Below that I’m going back into the Ethernet properties and assigning that as a static IP so it never changes.
+
+
+Now I’m on the Windows 11 VM doing the same thing — putting it on ADNetwork in VirtualBoX
+
+
+Below that I’m setting its static IP to 10.0.2.16 and pointing its DNS to 10.0.2.15, which is the server. That’s how the client will find the domain.
+
+
+I’m in Settings on the Windows 11 VM under Access Work or School. I clicked Connect then chose Join a domain and typed in Houtech.locl.
+
+
+It asked me to authenticate so I entered the Administrator credentials to prove I have permission to join
+
+
+Below that I switched back to the server and confirmed in Active Directory that WINDOW01 is now showing up under Computers : the join worked
+
+
