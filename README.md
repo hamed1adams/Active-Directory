@@ -1,6 +1,6 @@
 # Active-Directory
 Built a simulated company environment using Windows Server and Active Directory. Installed Windows Server, configured a domain, and created Organizational Units for HR, IT, Sales, Engineering, and Administration. Added user accounts within each department to practice domain setup, user management, and Active Directory organization.
-
+    
 
 On this step, I prepared the environment by downloading and selecting the correct ISO files for both Windows Server and Windows 11. This was important because choosing the correct system images ensures compatibility and allows me to properly simulate a real-world enterprise setup.
 
