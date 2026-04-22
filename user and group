@@ -1,0 +1,21 @@
+
+I’m back in Server Manager. I need to add the Active Directory role so this server can become a domain controller.
+
+
+
+ From here I needed to install the Active Directory Domain Services role by clicking "Add roles and features"
+
+
+I selected Active Directory Domain Services (AD DS) and added required features. This installed the tools needed to create and manage a domain.
+
+
+
+Now I selected ‘Add a new forest’ and named my domain houtech.locl. The system automatically created a NetBIOS name, which came out as HOUTECH
+
+
+I selected “Add a new forest” and named my domain houtech.locl . Below that it’s showing my NetBIOS name came out as HOUTECH
+
+
+The install is done. Server Manager now shows AD DS and DNS are both running. This confirms the server is officially a domain controller.
+
+
