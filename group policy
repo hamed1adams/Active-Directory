@@ -1,0 +1,15 @@
+I’m creating a new GPO and naming it Password Policy. This is what I’ll use to enforce password rules across the domain.
+
+
+I’m inside the Group Policy Management Editor. I can see Computer Configuration and User Configuration .This is where all the policy settings live.
+
+
+I navigated down to Computer Configuration > Windows Settings > Security Settings > Account Policies > Password Policy. Everything is showing Not Defined meaning no rules are set yet.
+
+
+I opened the complexity requirements setting. This enforces that passwords must have uppercase, lowercase, numbers, and special characters. I enabled it.
+
+
+The password policy is now configured. Maximum password age is set to 90 days so users have to change it regularly. Minimum password age is 30 days so they can’t just change it right back. Minimum length is 12 characters. Complexity requirements are enabled.
+
+
