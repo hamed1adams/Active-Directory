@@ -3,7 +3,7 @@ I’m back in Server Manager. I need to add the Active Directory role so this se
 
 
 
- From here I needed to install the Active Directory Domain Services role by clicking "Add roles and features"
+From here I needed to install the Active Directory Domain Services role by clicking "Add roles and features"
 
 
 I selected Active Directory Domain Services (AD DS) and added required features. This installed the tools needed to create and manage a domain.
