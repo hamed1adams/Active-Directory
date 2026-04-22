@@ -1,0 +1,40 @@
+AD DS and DNS are running. Now I’m moving into Active Directory to start building out users and organization.
+
+
+“I opened Active Directory Users and Computers, and I can see my domain houtech.locl with all the default folders. From here, I’m getting ready to create my first user.”
+
+
+I right-clicked the Users container and selected New > User to open the New Object - User form. The
+
+
+I created a user named Emily Carter with the logon name Ecarter@houtech.locl. Below that you can see she’s now showing up in the Users container alongside the built-in accounts.
+
+
+I repeated the same process and created the full set of domain 
+
+
+Now that I had users, I needed to organize them. I right-clicked the domain root HOUTECH.LOCL and selected New > Organizational Unit, naming it Departments.
+
+
+Inside the Departments OU, I created five child OUs: HR, IT, Finance, Marketing, and Sales. I did this by right-clicking Departments and selecting New  Organizational Unit for each one.
+
+
+With the OU structure built, I moved users into their correct department OUs. 
+
+
+Now let’s group users the whole point of groups and permissions is to make sure the right people get access to the right resources, and nobody
+
+
+I’m adding members to the SalesShare group. I searched for Brandon Hill and added him. Below that I’m assigning him permissions to the share.
+
+
+I created different shared folders like ITshare, MarketingShare, Finance, HRshare, and SalesShare, and linked them to the server paths.
+This is how teams share files 
+
+
+This allowed me to centralize files in one location and control access using group-based permissions instead of assigning permissions to individual users, making management easier and more secure.
+
+
+Confirming the ITshare settings before creating it. Below that shows all 7 shares are now live — ITshare, MarketingShare, Finance, HRshare, and SalesShare all created and mapped to their correct paths on HOUTECH01.
+
+
