@@ -2,7 +2,6 @@
 I’m back in Server Manager. I need to add the Active Directory role so this server can become a domain controller.
 
 
-
 From here I needed to install the Active Directory Domain Services role by clicking "Add roles and features"
 
 
